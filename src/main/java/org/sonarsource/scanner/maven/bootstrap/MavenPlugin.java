@@ -37,7 +37,7 @@ import org.codehaus.plexus.util.xml.Xpp3Dom;
 public class MavenPlugin {
 
   private Xpp3Dom configuration;
-  private StringBuffer test = "test";
+  private StringBuffer test = new StringBuffer('x');
 
   /**
    * Creates a MavenPlugin based on a Plugin
